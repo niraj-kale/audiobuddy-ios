@@ -26,7 +26,7 @@ class AudioRecorderManager: NSObject, ObservableObject {
     }
     
     func checkPermission() {
-        switch AVAudioApplication.shared.recordPermission {
+        switch AVAudioSession.sharedInstance().recordPermission {
         case .granted:
             hasPermission = true
         case .denied:
@@ -39,7 +39,7 @@ class AudioRecorderManager: NSObject, ObservableObject {
     }
     
     func requestPermission() {
-        AVAudioApplication.requestRecordPermission { [weak self] granted in
+        AVAudioSession.sharedInstance().requestRecordPermission { [weak self] granted in
             Task { @MainActor in
                 self?.hasPermission = granted
             }

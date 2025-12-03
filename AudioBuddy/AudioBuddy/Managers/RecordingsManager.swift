@@ -82,10 +82,6 @@ class RecordingsManager: ObservableObject {
         }
     }
     
-    func getRecordingCount() -> Int {
-        return recordings.count
-    }
-    
     func getTotalDuration() -> TimeInterval {
         return recordings.reduce(0) { $0 + $1.duration }
     }

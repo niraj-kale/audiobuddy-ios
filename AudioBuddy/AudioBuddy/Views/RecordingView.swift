@@ -114,7 +114,7 @@ struct RecordingView: View {
                 
                 // Stats
                 VStack(spacing: 4) {
-                    Text("\(recordingsManager.getRecordingCount()) recordings")
+                    Text("\(recordingsManager.recordings.count) recordings")
                         .font(.caption)
                         .foregroundColor(.secondary)
                     
