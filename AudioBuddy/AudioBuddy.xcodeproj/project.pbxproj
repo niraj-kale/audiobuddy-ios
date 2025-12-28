@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF7880392EFFC1660085488C /* GRDB in Frameworks */ = {isa = PBXBuildFile; productRef = EF7880382EFFC1660085488C /* GRDB */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFBC78E72EE1E46B00DE214C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFBC78D12EE1E46A00DE214C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFBC78D82EE1E46A00DE214C;
+			remoteInfo = AudioBuddy;
+		};
+		EFBC78F12EE1E46B00DE214C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFBC78D12EE1E46A00DE214C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFBC78D82EE1E46A00DE214C;
+			remoteInfo = AudioBuddy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFBC78D92EE1E46A00DE214C /* AudioBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBC78E62EE1E46B00DE214C /* AudioBuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioBuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBC78F02EE1E46B00DE214C /* AudioBuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		EFE4A1252EFEB3150069DC25 /* Exceptions for "AudioBuddy" folder in "AudioBuddy" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = EFBC78D82EE1E46A00DE214C /* AudioBuddy */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EFBC78DB2EE1E46A00DE214C /* AudioBuddy */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EFE4A1252EFEB3150069DC25 /* Exceptions for "AudioBuddy" folder in "AudioBuddy" target */,
+			);
+			path = AudioBuddy;
+			sourceTree = "<group>";
+		};
+		EFBC78E92EE1E46B00DE214C /* AudioBuddyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AudioBuddyTests;
+			sourceTree = "<group>";
+		};
+		EFBC78F32EE1E46B00DE214C /* AudioBuddyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AudioBuddyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFBC78D62EE1E46A00DE214C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7880392EFFC1660085488C /* GRDB in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBC78E32EE1E46B00DE214C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBC78ED2EE1E46B00DE214C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFBC78D02EE1E46A00DE214C = {
+			isa = PBXGroup;
+			children = (
+				EFBC78DB2EE1E46A00DE214C /* AudioBuddy */,
+				EFBC78E92EE1E46B00DE214C /* AudioBuddyTests */,
+				EFBC78F32EE1E46B00DE214C /* AudioBuddyUITests */,
+				EFBC78DA2EE1E46A00DE214C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFBC78DA2EE1E46A00DE214C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFBC78D92EE1E46A00DE214C /* AudioBuddy.app */,
+				EFBC78E62EE1E46B00DE214C /* AudioBuddyTests.xctest */,
+				EFBC78F02EE1E46B00DE214C /* AudioBuddyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFBC78D82EE1E46A00DE214C /* AudioBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFBC78FA2EE1E46B00DE214C /* Build configuration list for PBXNativeTarget "AudioBuddy" */;
+			buildPhases = (
+				EFBC78D52EE1E46A00DE214C /* Sources */,
+				EFBC78D62EE1E46A00DE214C /* Frameworks */,
+				EFBC78D72EE1E46A00DE214C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EFBC78DB2EE1E46A00DE214C /* AudioBuddy */,
+			);
+			name = AudioBuddy;
+			packageProductDependencies = (
+				EF7880382EFFC1660085488C /* GRDB */,
+			);
+			productName = AudioBuddy;
+			productReference = EFBC78D92EE1E46A00DE214C /* AudioBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFBC78E52EE1E46B00DE214C /* AudioBuddyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFBC78FD2EE1E46B00DE214C /* Build configuration list for PBXNativeTarget "AudioBuddyTests" */;
+			buildPhases = (
+				EFBC78E22EE1E46B00DE214C /* Sources */,
+				EFBC78E32EE1E46B00DE214C /* Frameworks */,
+				EFBC78E42EE1E46B00DE214C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFBC78E82EE1E46B00DE214C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EFBC78E92EE1E46B00DE214C /* AudioBuddyTests */,
+			);
+			name = AudioBuddyTests;
+			packageProductDependencies = (
+			);
+			productName = AudioBuddyTests;
+			productReference = EFBC78E62EE1E46B00DE214C /* AudioBuddyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFBC78EF2EE1E46B00DE214C /* AudioBuddyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFBC79002EE1E46B00DE214C /* Build configuration list for PBXNativeTarget "AudioBuddyUITests" */;
+			buildPhases = (
+				EFBC78EC2EE1E46B00DE214C /* Sources */,
+				EFBC78ED2EE1E46B00DE214C /* Frameworks */,
+				EFBC78EE2EE1E46B00DE214C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFBC78F22EE1E46B00DE214C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EFBC78F32EE1E46B00DE214C /* AudioBuddyUITests */,
+			);
+			name = AudioBuddyUITests;
+			packageProductDependencies = (
+			);
+			productName = AudioBuddyUITests;
+			productReference = EFBC78F02EE1E46B00DE214C /* AudioBuddyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFBC78D12EE1E46A00DE214C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2610;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					EFBC78D82EE1E46A00DE214C = {
+						CreatedOnToolsVersion = 26.1.1;
+					};
+					EFBC78E52EE1E46B00DE214C = {
+						CreatedOnToolsVersion = 26.1.1;
+						TestTargetID = EFBC78D82EE1E46A00DE214C;
+					};
+					EFBC78EF2EE1E46B00DE214C = {
+						CreatedOnToolsVersion = 26.1.1;
+						TestTargetID = EFBC78D82EE1E46A00DE214C;
+					};
+				};
+			};
+			buildConfigurationList = EFBC78D42EE1E46A00DE214C /* Build configuration list for PBXProject "AudioBuddy" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFBC78D02EE1E46A00DE214C;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				EF7880372EFFC1660085488C /* XCRemoteSwiftPackageReference "GRDB" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EFBC78DA2EE1E46A00DE214C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFBC78D82EE1E46A00DE214C /* AudioBuddy */,
+				EFBC78E52EE1E46B00DE214C /* AudioBuddyTests */,
+				EFBC78EF2EE1E46B00DE214C /* AudioBuddyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFBC78D72EE1E46A00DE214C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBC78E42EE1E46B00DE214C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBC78EE2EE1E46B00DE214C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFBC78D52EE1E46A00DE214C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBC78E22EE1E46B00DE214C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBC78EC2EE1E46B00DE214C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFBC78E82EE1E46B00DE214C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFBC78D82EE1E46A00DE214C /* AudioBuddy */;
+			targetProxy = EFBC78E72EE1E46B00DE214C /* PBXContainerItemProxy */;
+		};
+		EFBC78F22EE1E46B00DE214C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFBC78D82EE1E46A00DE214C /* AudioBuddy */;
+			targetProxy = EFBC78F12EE1E46B00DE214C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EFBC78F82EE1E46B00DE214C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2QCHRFWZMR;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFBC78F92EE1E46B00DE214C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2QCHRFWZMR;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFBC78FB2EE1E46B00DE214C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QCHRFWZMR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AudioBuddy/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Audio Buddy";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "AudioBuddy needs access to your microphone to record audio for transcription.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "AudioBuddy uses speech recognition to transcribe your recordings in real-time.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nk.AudioBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFBC78FC2EE1E46B00DE214C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QCHRFWZMR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AudioBuddy/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Audio Buddy";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "AudioBuddy needs access to your microphone to record audio for transcription.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "AudioBuddy uses speech recognition to transcribe your recordings in real-time.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nk.AudioBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFBC78FE2EE1E46B00DE214C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QCHRFWZMR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nk.AudioBuddyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioBuddy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AudioBuddy";
+			};
+			name = Debug;
+		};
+		EFBC78FF2EE1E46B00DE214C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QCHRFWZMR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nk.AudioBuddyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioBuddy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AudioBuddy";
+			};
+			name = Release;
+		};
+		EFBC79012EE1E46B00DE214C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QCHRFWZMR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nk.AudioBuddyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AudioBuddy;
+			};
+			name = Debug;
+		};
+		EFBC79022EE1E46B00DE214C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QCHRFWZMR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nk.AudioBuddyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AudioBuddy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFBC78D42EE1E46A00DE214C /* Build configuration list for PBXProject "AudioBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBC78F82EE1E46B00DE214C /* Debug */,
+				EFBC78F92EE1E46B00DE214C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFBC78FA2EE1E46B00DE214C /* Build configuration list for PBXNativeTarget "AudioBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBC78FB2EE1E46B00DE214C /* Debug */,
+				EFBC78FC2EE1E46B00DE214C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFBC78FD2EE1E46B00DE214C /* Build configuration list for PBXNativeTarget "AudioBuddyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBC78FE2EE1E46B00DE214C /* Debug */,
+				EFBC78FF2EE1E46B00DE214C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFBC79002EE1E46B00DE214C /* Build configuration list for PBXNativeTarget "AudioBuddyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBC79012EE1E46B00DE214C /* Debug */,
+				EFBC79022EE1E46B00DE214C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EF7880372EFFC1660085488C /* XCRemoteSwiftPackageReference "GRDB" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/groue/GRDB.swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EF7880382EFFC1660085488C /* GRDB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF7880372EFFC1660085488C /* XCRemoteSwiftPackageReference "GRDB" */;
+			productName = GRDB;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EFBC78D12EE1E46A00DE214C /* Project object */;
+}
